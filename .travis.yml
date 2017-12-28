@@ -12,6 +12,11 @@ gemfile:
   - gemfiles/Gemfile.rails-5.0-stable
 
 matrix:
+  exclude:
+    - rvm: 2.1.10
+      gemfile: gemfiles/Gemfile.rails-5.0-stable
+    - rvm: 2.1.10
+      gemfile: Gemfile
   allow_failures:
     - rvm: ruby-head
 
