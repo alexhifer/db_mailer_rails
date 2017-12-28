@@ -2,6 +2,8 @@
 
 This gem allows you to store mail templates in the database.
 
+**Tested only on Rails > 5**. Soon there will be support a version of Rails 4.1 and 4.2
+
 Capabilities:
 
 * Sending mails with ActionMailer::MessageDelivery (#deliver_now and #deliver_later methods)
