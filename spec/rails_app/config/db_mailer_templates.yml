@@ -5,7 +5,7 @@ HelloWorldDbMailer:
   body: >
     Hello, {{user_name}}!<br><br>
     This is your first e-mail with <b>DbMailerRails gem</b> :)<br><br>
-    Don't forget to "Star" this <a href="https://github.com/thoughtbot/paperclip">gem on GitHub</a>.
+    Don't forget to "Star" this <a href="https://github.com/alexhifer/db_mailer_rails">gem on GitHub</a>.
 
 HelloWorld2DbMailer:
   subject: 'Hello world 2!'
@@ -15,4 +15,4 @@ HelloWorld2DbMailer:
     Hello, {{user_name}}!<br><br>
     Your authenticate token is <b>{{auth_token}}</b><br><br>
     This is your first e-mail with <b>DbMailerRails gem</b> :)<br><br>
-    Don't forget to "Star" this <a href="https://github.com/thoughtbot/paperclip">gem on GitHub</a>.
+    Don't forget to "Star" this <a href="https://github.com/alexhifer/db_mailer_rails">gem on GitHub</a>.
