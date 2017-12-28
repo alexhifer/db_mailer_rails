@@ -1,4 +1,4 @@
-!DbMailerRails Logo](https://raw.github.com/alexhifer/db_mailer_rails/master/db_mailer_rails.png)
+[!DbMailerRails Logo](https://raw.github.com/alexhifer/db_mailer_rails/master/db_mailer_rails.png)
 
 This gem allows you to store mail templates in the database.
 
