@@ -38,7 +38,7 @@ Syncing the configuration file(*config/db_mailer_templates.yml*) with database:
 ##### A quick example of sending:
 
 ```ruby
-HelloWorldDbMailer.build(OpenStruct.new(name: '')).deliver_now
+HelloWorldDbMailer.build(OpenStruct.new(name: 'YourApp')).deliver_now
 ```
 
 **HelloWorldDbMailer** - this is the inheritance class of DbMailerRails::Base. It provides a mechanism for searching and rendering a template. All db_mailers need to inherit from it. All db_mailers are in the app /db_mailers folder.
