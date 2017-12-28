@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>db_mailer_rails - Test application</title>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <div style="width: 600px; margin: 0 auto;">
+      <div style="text-align: center;">
+        <%= link_to image_tag('logo.png', width: 250, height: 55), root_path %>
+      </div>
+
+      <% if flash.notice %>
+        <div style="margin: 20px 0; padding: 7px; background-color: #cbe8ba; border-radius: 4px;"><%= flash.notice %></div>
+      <% end %>
+
+      <div style="margin-top: 20px;">
+        <%= yield %>
+      </div>
+
+      <div style="margin-top: 20px; text-align: right;">created by <a href="https://github.com/alexhifer" target="_blank" title="Go to GitHub profile">@alexhifer</a></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+# RubyMine project folder
+/.idea/
+
+# bundler config
+/.bundle/
+
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# test RailsApp
+spec/rails_app/log/
+spec/rails_app/tmp/
+spec/rails_app/db/*.sqlite3
+
+# rspec failure tracking
+.rspec_status
+
+# linux files
+.directory
