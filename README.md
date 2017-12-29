@@ -4,7 +4,7 @@
 
 This gem allows you to store mail templates in the database.
 
-**Tested only on Rails > 5**. Soon there will be support a version of Rails 4.1 and 4.2
+**Tested Rails >= 4.2**. Soon there will be support a version of Rails 4.1
 
 Capabilities:
 
@@ -158,4 +158,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the DbMailerRails project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/db_mailer_rails/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the **db_mailer_rails** project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/db_mailer_rails/blob/master/CODE_OF_CONDUCT.md).
