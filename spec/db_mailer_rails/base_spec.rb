@@ -25,29 +25,29 @@ RSpec.describe DbMailerRails::Base, type: :mailer do
   end
 
   specify '#fields' do
-    expect(described_class.new.fields).to eq({})
+    expect(described_class.send(:new).fields).to eq({})
   end
 
   describe 'private methods' do
     specify '#layout' do
-      expect(described_class.new.send(:layout)).to eq('mailer')
+      expect(described_class.send(:new).send(:layout)).to eq('mailer')
     end
 
     describe '#layout_by_environment' do
       specify 'development environment' do
         allow(Rails).to receive(:env).and_return(ActiveSupport::StringInquirer.new('production'))
         expect_any_instance_of(described_class).to receive(:layout).and_return('test_mailer')
-        expect(described_class.new.send(:layout_by_environment)).to eq('test_mailer')
+        expect(described_class.send(:new).send(:layout_by_environment)).to eq('test_mailer')
       end
 
       specify 'test environment' do
-        expect(described_class.new.send(:layout_by_environment)).to be_falsey
+        expect(described_class.send(:new).send(:layout_by_environment)).to be_falsey
       end
     end
 
     describe '#fields_with_data' do
       let(:fields) { { user_name: 'Test' } }
-      subject { described_class.new }
+      subject { described_class.send(:new) }
 
       specify do
         allow(subject).to receive(:user_name).and_return('Test name')
