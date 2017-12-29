@@ -9,6 +9,7 @@ rvm:
 
 gemfile:
   - Gemfile
+  - gemfiles/Gemfile.rails-4.2-stable
   - gemfiles/Gemfile.rails-5.0-stable
 
 matrix:
