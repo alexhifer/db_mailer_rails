@@ -1,5 +1,6 @@
 class TestController < ApplicationController
   def index
+    @db_mailer_template = DbMailerTemplate.first
   end
 
   def send_email
