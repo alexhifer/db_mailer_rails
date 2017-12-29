@@ -19,7 +19,7 @@ RSpec.describe DbMailerRails::Base, type: :mailer do
       end
 
       it 'sends an email' do
-        expect { mail.deliver_now }.to change { ActionMailer::Base.deliveries.count }.by(1)
+        expect { mail.try(:deliver_now) || mail.try(:deliver) }.to change { ActionMailer::Base.deliveries.count }.by(1)
       end
     end
   end
