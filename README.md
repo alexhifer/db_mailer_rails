@@ -4,7 +4,7 @@
 
 This gem allows you to store mail templates in the database.
 
-**Tested Rails >= 4.2**. Soon there will be support a version of Rails 4.1
+**db_mailer_rails works with Rails >= 4.2**. Soon there will be support a version of Rails 4.1
 
 Capabilities:
 
