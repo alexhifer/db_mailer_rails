@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    db_mailer_rails (0.1.0)
+    db_mailer_rails (0.1.1)
       actionmailer (>= 4.2, < 5.2)
       actionpack (>= 4.2, < 5.2)
       mustache (~> 1.0)
@@ -140,7 +140,7 @@ GEM
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
     websocket-driver (0.6.5)
-      websocket-extensions (>= 0.1.0)
+      websocket-extensions (>= 0.1.1)
     websocket-extensions (0.1.3)
 
 PLATFORMS

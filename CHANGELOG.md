@@ -1,3 +1,5 @@
+### 0.1.1 - 2018-01-12
+
 * enhancements
   * Added support for Rails 4.1.x.
   * Added support for Rails 4.2.x.

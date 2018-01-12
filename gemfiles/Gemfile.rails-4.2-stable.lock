@@ -57,7 +57,7 @@ GIT
 PATH
   remote: .
   specs:
-    db_mailer_rails (0.1.0)
+    db_mailer_rails (0.1.1)
       actionmailer (>= 4.2, < 5.2)
       actionpack (>= 4.2, < 5.2)
       mustache (~> 1.0)
