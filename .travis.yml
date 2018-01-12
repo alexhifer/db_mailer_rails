@@ -31,6 +31,8 @@ matrix:
 
 sudo: false
 
-before_install: "rm ${BUNDLE_GEMFILE}.lock"
+before_install:
+  - "rm ${BUNDLE_GEMFILE}.lock"
+  - gem update --system
 
 before_script: 'bundle update'
