@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gemspec
+gemspec path: '..'
 
-gem 'rails', '~> 6.0.2'
+gem 'rails', '~> 5.1'
 
 group :development do
   gem 'listen', '~> 3.0'

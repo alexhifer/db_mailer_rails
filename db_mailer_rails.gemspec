@@ -21,10 +21,10 @@ s.authors                 = 'Alexey Degtyarev'
   s.executables           = s.files.grep(%r{^exe/}) { |f| File.basename(f) }
   s.require_paths         = ['lib']
 
-  s.add_dependency 'actionpack', ['>= 4.1', '< 5.2']
-  s.add_dependency 'actionmailer', ['>= 4.1', '< 5.2']
-  s.add_dependency 'railties', ['>= 4.1', '< 5.2']
-  s.add_dependency 'mustache', '~> 1.0'
-  s.add_development_dependency 'rspec', '~> 3.0'
-  s.add_development_dependency 'sqlite3', '~> 1.3.0'
+  s.add_dependency 'actionpack', ['>= 4.1', '<= 6.0.2']
+  s.add_dependency 'actionmailer', ['>= 4.1', '<= 6.0.2']
+  s.add_dependency 'railties', ['>= 4.1', '<= 6.0.2']
+  s.add_dependency 'mustache', '~> 1.1'
+  s.add_development_dependency 'rspec', '~> 3.9.0'
+  s.add_development_dependency 'sqlite3', '~> 1.4.2'
 end
