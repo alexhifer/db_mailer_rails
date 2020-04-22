@@ -26,5 +26,5 @@ s.authors                 = 'Alexey Degtyarev'
   s.add_dependency 'railties', ['>= 4.2', '<= 6.0.2.2']
   s.add_dependency 'mustache', '~> 1.1'
   s.add_development_dependency 'rspec', '~> 3.9.0'
-  s.add_development_dependency 'sqlite3', ['= 1.3.13', '= 1.4.2']
+  s.add_development_dependency 'sqlite3', '>= 1.3.13', '<= 1.4.2']
 end
