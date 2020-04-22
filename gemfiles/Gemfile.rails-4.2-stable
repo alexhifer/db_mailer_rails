@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec path: '..'
 
 gem 'rails', github: 'rails/rails', branch: '4-2-stable'
+gem 'bundler', '~> 1.1'
 
 group :development do
   gem 'listen', '~> 3.0'
