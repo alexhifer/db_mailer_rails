@@ -34,6 +34,6 @@ before_install:
   - "rm ${BUNDLE_GEMFILE}.lock"
   - gem update --system '2.7.8' --no-document
   - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
-  - gem install bundler -v '< 2'
+  - gem install bundler -v '< 2' --no-document
 
 before_script: 'bundle update'
