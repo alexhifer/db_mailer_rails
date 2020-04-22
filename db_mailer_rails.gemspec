@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 s.authors                 = 'Alexey Degtyarev'
   s.email                 = 'alexhifer@gmail.com'
 
-  s.required_ruby_version = '>= 2.1.0'
+  s.required_ruby_version = '>= 2.4.2'
   s.summary               = %q{Store mail templates in the database.}
   s.description           = %q{This gem allows you to store mail templates in the database.}
   s.license               = 'MIT'
